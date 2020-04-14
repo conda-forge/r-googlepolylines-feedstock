@@ -3,7 +3,7 @@ About r-googlepolylines
 
 Home: https://CRAN.R-project.org/package=googlePolylines
 
-Package license: GPL-3
+Package license: GPL-3.0
 
 Feedstock license: BSD 3-Clause
 

@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -37,7 +37,6 @@ requirements:
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
-    - r-bh
     - r-rcpp >=0.12.13
 
 test:
@@ -47,7 +46,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=googlePolylines
-  license: GPL-3
+  license: GPL-3.0
   summary: Encodes simple feature ('sf') objects and coordinates, and decodes polylines using
     the 'Google' polyline encoding algorithm (<https://developers.google.com/maps/documentation/utilities/polylinealgorithm>).
   license_family: GPL3

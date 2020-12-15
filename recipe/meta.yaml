@@ -1,4 +1,4 @@
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/googlePolylines_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/googlePolylines/googlePolylines_{{ version }}.tar.gz
-  sha256: cf918227d4796774d46af4726f92b6e85c3b1a35102f051e94432f5f66e2363c
+  sha256: ed0ac0ee22bba36cdc3c5bfef94cd3f5288241e049bf1cd5f3c1631f3ba015fd
 
 build:
   merge_build_host: true  # [win]

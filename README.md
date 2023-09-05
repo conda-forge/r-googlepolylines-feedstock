@@ -3,6 +3,7 @@ About r-googlepolylines-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-googlepolylines-feedstock/blob/main/LICENSE.txt)
 
+
 About r-googlepolylines
 -----------------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=googlePolylines
 Package license: MIT
 
 Summary: Encodes simple feature ('sf') objects and coordinates, and decodes polylines using the 'Google' polyline encoding algorithm (<https://developers.google.com/maps/documentation/utilities/polylinealgorithm>).
+
 About r-googlepolylines
 -----------------------
 

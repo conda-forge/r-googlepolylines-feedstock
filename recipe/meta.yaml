@@ -15,7 +15,7 @@ source:
 build:
   merge_build_host: true  # [win]
   number: 0
-  skip: true  # [r_base == "3.6" and win]
+  skip: true  # [win]
   rpaths:
     - lib/R/lib/
     - lib/
@@ -34,11 +34,12 @@ requirements:
   host:
     - r-base
     - r-bh
-    - r-rcpp >=0.12.13
+    - r-rcpp >=1.0.10
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
-    - r-rcpp >=0.12.13
+    #- r-bh
+    - r-rcpp >=1.0.10
 
 test:
   commands:

@@ -1,4 +1,4 @@
-{% set version = "0.8.5" %}
+{% set version = "0.8.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/googlePolylines_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/googlePolylines/googlePolylines_{{ version }}.tar.gz
-  sha256: 69f6ad9f20cf69d7d927f643ac3cf64aa40fdbf43c32a3db574fe87f2803186e
+  sha256: 4569bc0dfdb88c06fc1d822bbf98beaf3ee555b1e79a81c545ffb265fb9fad8b
 
 build:
   number: 0

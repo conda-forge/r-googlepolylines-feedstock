@@ -12,7 +12,7 @@ source:
   sha256: 4569bc0dfdb88c06fc1d822bbf98beaf3ee555b1e79a81c545ffb265fb9fad8b
 
 build:
-  number: 0
+  number: 1
   # Checking windows to see if it passes. Uncomment the line if it fails.
   # skip: true  # [win]
   rpaths:
